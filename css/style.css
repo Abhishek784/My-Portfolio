@@ -1,0 +1,302 @@
+
+/*import fonts from fonts.css file*/
+@import url(./fonts.css);
+
+/* css variables*/
+@import url(./partials/variables.css);
+
+/* global styling*/
+@import url(./partials/global.css);
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start navigation */
+.header_area{
+    background-color: rgb(172, 19, 255);
+}
+.header_area .main-menu .navbar .navbar-brand .mukul{
+     margin: 50px 0px 0px 50%;
+     border-radius: 150px;
+}
+
+.header_area .main-menu .navbar-nav{
+    padding: 1rem 11rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 600 15px/2px  var(--roboto) ;  
+    text-transform:uppercase;
+    font-weight: 600;
+    padding: 1.7rem;
+    color :black;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background:var(--gradient-color);
+    -webkit-text-fill-color: rgb(0, 46, 182);
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background:var(--gradient-color);
+    -webkit-text-fill-color: rgb(0, 46, 182);
+}
+/* stop navigation*/
+
+
+
+
+
+
+
+
+
+
+/* Banner Area */
+.site-main .site-banner{
+    
+    padding-left: 10%;
+    background-color: rgb(172, 19, 255);
+   /* background: url(../img/filament.png)no-repeat 25% 50% ;*/
+     
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight:500;
+    
+}
+.site-main .site-banner .site-title h3::after{
+    content:"";
+    height:2px;
+    width:18vw;
+    background: black;
+    display:inline-block;
+    margin-left: 5%;
+    transform: translateY(2px);
+}
+.site-main .site-banner .site-title h1{
+    font-size: 3rem;
+} 
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image>img{
+    padding: 5rem 0;
+    width: 90rem;
+}
+
+/* End Banner Area*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* START AREA INTERESTED */
+.about-area{
+    background-image: url(../img/web.jpg);
+    color: black;
+    
+    padding-top:100px
+}
+.about-image{
+    border: rgb(226, 11, 11) 3px solid;
+    margin: 50px 0px 25% 25%;
+    border-radius: 5px;
+    margin-right: 100px;
+    
+}
+.about-area .about-image .mydash{
+    
+    background-color: black;
+    line-height: 10px;
+    
+
+}
+.about-area .about-image .myicon{
+    background-color: black;
+    border-radius: 8px;
+}
+
+.site-main .about-area h2>span{
+    display: block;
+    font:italic bold 49px/60px ;
+    letter-spacing: 21px;
+
+}
+
+/* END AREA INTERESTED */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* start educational background*/
+.site-main .educational-area{
+     padding: 7rem 2rem;
+     background-image: url(../img/wallp.jpg);
+     
+}
+.site-main .educational-area .educational-title{
+    
+    color: lightpink;
+}
+.site-main .educational-area .educational-title h1{
+    font-size: 35px;
+}
+.site-main>.educational-area .educational{
+    background: lightsalmon;
+    padding:2rem 0;
+    margin:5em .5rem;
+    
+    width: 18rem;
+    transition: box-shadow .7s ease;
+}
+.site-main>.educational-area .educational:hover{
+    box-sizing: border-box;
+}
+/* END educational background */
+
+
+
+
+
+
+
+
+/* Start PROGRAMMING AREA */
+.site-main .programming-area{
+    background-image: url(../img/metal.jpg);
+    padding: 3rem 0;
+    color: wheat;
+     
+}
+
+.site-main .programming-area .grid .text-secondary{
+    background-color: black;
+    color:green
+}
+.site-main .programming-area .grid .link a{
+    text-decoration:underline;
+}
+.site-main .programming-area .button-group button{
+   
+    font: normal 500 16px/130px var(--roboto);
+    color: violet;
+    margin: 0px 5px;
+}
+.site-main .programming-area .button-group button + button{
+    padding: 1rem;
+}
+.site-main .programming-area .grid .our-programming .img a:hover{
+
+    filter:brightness(1.1)drop-shadow(1px 8px 30px grey)
+}
+/* END PROGRAMMING AREA */
+
+
+
+
+
+
+
+
+/* START CONNECT ME AREA */
+.site-main .about-area{
+    color: blanchedalmond;
+}
+.site-main .about-area .about-title .client
+{
+    background: grey;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top:2rem;
+}
+.site-main .about-area .about-client 
+
+
+
+/* END CONNECT ME AREA */
+
+
+
+
+
+
+
+/* Start footer Area*/
+
+#footer{
+    background-color: rgba(18, 217, 228, 0.432);
+    margin:10px;
+    padding-bottom: 1px;
+    height: 60px;
+    border-radius: 3px;
+    clear:both;
+    text-align: center;
+    font-size: 80%;
+}
+#footer ul {
+    padding: 2px;
+    list-style-type: none;
+    text-align: center;
+    margin-top :10px
+
+}
+#footer ul li{
+    display: inline;
+}
+#footer ul li a{
+    color: black;
+    font-weight: none;
+text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+padding:0em 2em;
+font-size: 13px;
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(50%);
+
+
+}
+a:hover{
+    color: black;
+    background-color: white;
+}
+#footer p{
+    padding: 0px;
+    margin-top:0px;
+    font-size: 13px; 
+}
+/*end footer area*/

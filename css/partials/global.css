@@ -1,0 +1,35 @@
+.title-text{
+    font:normal bold 50px/72px var(--roboto);
+}
+
+/* Buttons*/
+.button{
+    padding:.5rem 2rem;
+    font:normal 300 12px/10px;
+    position: relative;
+    border:1px solid transparent;
+    border-radius: 10px;
+    
+}
+
+.button{
+    background: rgba(13, 130, 248, 0.387);
+    background-clip: padding-box;
+    color: green;
+    transition: background.6s ease;
+    box-shadow: blue;
+}
+.button:hover{
+    background: rgb(108, 108, 184);
+    background-clip:padding-box; 
+    color:white;
+    
+}
+
+button:focus,
+button:active,
+button:hover
+.button .active{
+    outline: 1px !important;
+    box-shadow: none !important;
+}
